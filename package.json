@@ -52,7 +52,7 @@
     "bunyan-format": "0.2.1",
     "create-react-native-app": "1.0.0",
     "dateformat": "3.0.3",
-    "es6-promise": "4.2.4",
+    "es6-promise": "4.2.8",
     "glue": "4.0.0",
     "hapi": "16.5.0",
     "inert": "4.2.1",
