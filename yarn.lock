@@ -2403,9 +2403,10 @@ handlebars@4.x.x, handlebars@^4.0.3:
     subtext "^4.3.x"
     topo "2.x.x"
 
-hapi@16.5.0:
-  version "16.5.0"
-  resolved "https://registry.yarnpkg.com/hapi/-/hapi-16.5.0.tgz#89e4770f0034e3b69ee99ed929cc5b573805f303"
+hapi@16.7.0:
+  version "16.7.0"
+  resolved "https://registry.yarnpkg.com/hapi/-/hapi-16.7.0.tgz#3bb39517971df81e8198ec04751455e8b6cb0871"
+  integrity sha512-UeMX1LMWmHEIgMlwZGK/3lhI7X0VRvOioVply0Y9qF+/O5woGdQzNB8ZmDnLOBjnB6bdWWHyo5DEamuCsE1vmg==
   dependencies:
     accept "2.x.x"
     ammo "2.x.x"
@@ -2418,10 +2419,11 @@ hapi@16.5.0:
     hoek "4.x.x"
     iron "4.x.x"
     items "2.x.x"
-    joi "10.x.x"
+    joi "11.x.x"
     mimos "3.x.x"
     podium "1.x.x"
     shot "3.x.x"
+    somever "1.x.x"
     statehood "5.x.x"
     subtext "5.x.x"
     topo "2.x.x"
@@ -3014,6 +3016,15 @@ joi@10.x.x:
     hoek "4.x.x"
     isemail "2.x.x"
     items "2.x.x"
+    topo "2.x.x"
+
+joi@11.x.x:
+  version "11.4.0"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-11.4.0.tgz#f674897537b625e9ac3d0b7e1604c828ad913ccb"
+  integrity sha512-O7Uw+w/zEWgbL6OcHbyACKSj0PkQeUgmehdoXVSxt92QFCq4+1390Rwh5moI2K/OgC7D8RHRZqHZxT2husMJHA==
+  dependencies:
+    hoek "4.x.x"
+    isemail "3.x.x"
     topo "2.x.x"
 
 joi@13.x.x:
@@ -4761,6 +4772,13 @@ snapdragon@^0.8.1:
 sntp@2.x.x:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/sntp/-/sntp-2.1.0.tgz#2c6cec14fedc2222739caf9b5c3d85d1cc5a2cc8"
+  dependencies:
+    hoek "4.x.x"
+
+somever@1.x.x:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/somever/-/somever-1.0.1.tgz#28a5c7de0d55f781af52fbce9960db1b84ce206e"
+  integrity sha512-PCDMBcega4n7wuBUKmkiXidF3cOwtHHGg2qJYl0Rkw7StZqORoCgqce7HUuWNta/NAiQhwLDezNnTANxEWPCGA==
   dependencies:
     hoek "4.x.x"
 
