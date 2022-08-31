@@ -16,7 +16,9 @@
     "postbuild": "cp -Rf build dist/ && tar -zcvf dist.tar.gz dist && yarn install --force",
     "build": "babel --copy-files --out-dir dist/src src && npm run prep:dependencies",
     "prep:dependencies": "yarn install --production --ignore-scripts --prefer-offline && cp -Rf node_modules dist/node_modules --verbose",
-    "serve": "node dist/src/server/index.js"
+    "serve": "node dist/src/server/index.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Teddy Odhiambo <tedb19@gmail.com>",
   "license": "ISC",
@@ -46,26 +48,27 @@
   },
   "dependencies": {
     "base-64": "0.1.0",
-    "blipp": "2.3.0",
+    "blipp": "3.0.0",
     "boom": "5.2.0",
     "bunyan": "1.8.12",
     "bunyan-format": "0.2.1",
     "create-react-native-app": "1.0.0",
     "dateformat": "3.0.3",
     "es6-promise": "4.2.4",
-    "glue": "4.0.0",
+    "glue": "4.1.0",
     "hapi": "16.5.0",
     "inert": "4.2.1",
-    "isomorphic-fetch": "2.2.1",
+    "isomorphic-fetch": "3.0.0",
     "jsontoxml": "0.1.0",
     "lout": "10.0.2",
     "mysql2": "1.5.3",
     "nes": "9.0.1",
     "ping": "0.2.2",
-    "pm2": "2.10.4",
-    "sequelize": "4.4.2",
+    "pm2": "4.3.0",
+    "sequelize": "5.22.5",
     "tedious": "2.1.5",
-    "vision": "4.1.1"
+    "vision": "4.1.1",
+    "@snyk/protect": "latest"
   },
   "config": {
     "ghooks": {
@@ -89,5 +92,6 @@
     "plugins": [
       "transform-runtime"
     ]
-  }
+  },
+  "snyk": true
 }
