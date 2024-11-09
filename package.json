@@ -50,7 +50,7 @@
     "boom": "5.2.0",
     "bunyan": "1.8.12",
     "bunyan-format": "0.2.1",
-    "create-react-native-app": "1.0.0",
+    "create-react-native-app": "3.0.0",
     "dateformat": "3.0.3",
     "es6-promise": "4.2.4",
     "glue": "4.0.0",
@@ -63,7 +63,7 @@
     "nes": "9.0.1",
     "ping": "0.2.2",
     "pm2": "2.10.4",
-    "sequelize": "4.4.2",
+    "sequelize": "6.1.0",
     "tedious": "2.1.5",
     "vision": "4.1.1"
   },
